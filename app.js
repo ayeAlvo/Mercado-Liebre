@@ -3,9 +3,7 @@ const path = require('path');
 
 const app = express();
 
-app.listen(8000, () =>
- console.log('Servidor corriendo en puerto 8000')
-);
+app.listen(process.env.PORT || 8000);
 
 app.use(express.static(__dirname + '/public'));
 
