@@ -1,0 +1,112 @@
+.banner{
+    margin-top: 171px;
+}
+
+.all-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.warapper{
+    width: 100%;
+    padding: 10px;
+}
+
+.product{
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.art-data{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .price{
+    min-width: 30%;
+}
+
+.product .off{
+    max-width: 70%;
+    flex-grow: 1;
+}
+
+.art-data i{
+    border-radius:  50%;
+    border: solid 1px #39b54a;
+    padding: 10px;
+    
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+/* Estilos Formularios */
+
+.body-forms{
+    background-image: url(/images/close-up-hands-getting-box.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+}
+
+.form-register{
+    background-image: url(/images/moving-home-with-cardboard-boxes.jpg);
+}
+
+.create-form{
+    padding: 20px 15px;
+    margin-top: 230px;
+    margin-bottom: 35px;;
+}
+
+.container-form{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.bg-opacity{
+    background-color: rgba(72, 72, 72, 0.425);
+}
+
+
+.control-form{
+    margin-bottom: 15px;    
+}
+
+.control-form label{
+    margin-bottom:5px;
+    font-style: italic;
+    display: block;    
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.botton-form{
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 450ms;
+}
+
+.botton-form:hover{
+    background-color: #0022AA;
+}
+

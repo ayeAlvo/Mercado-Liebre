@@ -1,0 +1,76 @@
+@media (min-width: 768px){
+    .main-header-top-bar{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .phrase-header{
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .hamburguer-button{
+        display: none;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+
+    .banner{
+        margin-top: 158px;
+    }
+
+    /* Estilos Formularios */
+
+    .body-forms{
+        background-image: url(/images/close-up-hands-holding-pack.jpg);
+        max-width: 940px;
+    }
+
+    .container-form{
+        padding: 35px;
+    }
+
+    .container-form .mt{
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (min-width: 480px){
+    .logo{
+        width: 200px;
+    } 
+
+    .product{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: box-shadow 450ms;
+    }
+
+    .product .price{
+        min-width: 50%;
+    }
+    
+    .product .off{
+        max-width: 50%;
+    }
+
+    .wrapper{
+        width: 50%;
+        padding: 16px;
+    }
+
+}
+
