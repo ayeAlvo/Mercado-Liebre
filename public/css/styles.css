@@ -1,5 +1,9 @@
 .banner{
     margin-top: 171px;
+
+}
+.banner .banner-img{
+    max-height: 30vh;
 }
 
 .all-products{
